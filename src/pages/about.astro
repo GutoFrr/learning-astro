@@ -67,13 +67,11 @@ const textCase = 'uppercase';
 
   {finished ? <p>I finished this tutorial!</p> : null}
 
-  {
-    goal === 3 ? (
-      <p>My goal is to finish in 3 days.</p>
-    ) : (
-      <p>I don't know when to finish</p>
-    )
-  }
+  {goal === 3 ? (
+    <p>My goal is to finish in 3 days.</p>
+  ) : (
+    <p>I don't know when to finish</p>
+  )}
 
   <style define:vars={{ skillColor, fontWeight, textCase }}>
     .skill {
